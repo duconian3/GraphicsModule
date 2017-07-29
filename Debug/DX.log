@@ -1,0 +1,79 @@
+﻿Build started 11/12/2015 15:51:13.
+     1>Project "E:\1300869 Graphics\Source\DX\DX.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\1300869 Graphics\Source\packages\directxtk_desktop_2013.2015.7.1.1\build\native\../../build/native/include/" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D HAS_DIRECTXTK /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BaseApplication.cpp BaseMesh.cpp BaseShader.cpp Camera.cpp ColourShader.cpp CubeMesh.cpp D3D.cpp DepthShader.cpp GeometryShader.cpp Input.cpp Lab1.cpp Light.cpp LightShader.cpp Main.cpp ManiShader.cpp ManiTessShader.cpp Model.cpp OrthoMesh.cpp PlaneMesh.cpp PointMesh.cpp QuadMesh.cpp RenderTexture.cpp ShadowShader.cpp SphereMesh.cpp System.cpp TessellationMesh.cpp Texture.cpp TextureShader.cpp Timer.cpp TokenStream.cpp TriangleMesh.cpp
+         TriangleMesh.cpp
+         TokenStream.cpp
+         Timer.cpp
+         TextureShader.cpp
+         Texture.cpp
+         TessellationMesh.cpp
+         System.cpp
+         SphereMesh.cpp
+         ShadowShader.cpp
+         RenderTexture.cpp
+         QuadMesh.cpp
+         PointMesh.cpp
+         PlaneMesh.cpp
+         OrthoMesh.cpp
+         Model.cpp
+         ManiTessShader.cpp
+         ManiShader.cpp
+         Main.cpp
+         LightShader.cpp
+         Light.cpp
+         Generating Code...
+         Compiling...
+         Lab1.cpp
+     1>e:\1300869 graphics\source\dx\lab1.cpp(8): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>e:\1300869 graphics\source\dx\lab1.cpp(304): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Input.cpp
+         GeometryShader.cpp
+     1>e:\1300869 graphics\source\dx\geometryshader.cpp(42): warning C4101: 'tessellationBufferDesc' : unreferenced local variable
+         DepthShader.cpp
+         D3D.cpp
+         CubeMesh.cpp
+         ColourShader.cpp
+         Camera.cpp
+         BaseShader.cpp
+         BaseMesh.cpp
+         BaseApplication.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\1300869 Graphics\Source\Debug\DX.exe" /INCREMENTAL /NOLOGO "E:\1300869 Graphics\Source\packages\directxtk_desktop_2013.2015.7.1.1\build\native\../../build/native/lib/Win32/Debug/DirectXTKAudioDX.lib" "E:\1300869 Graphics\Source\packages\directxtk_desktop_2013.2015.7.1.1\build\native\../../build/native/lib/Win32/Debug/DirectXTK.lib" dxgi.lib d3d11.lib d3dcompiler.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\1300869 Graphics\Source\Debug\DX.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\1300869 Graphics\Source\Debug\DX.lib" /MACHINE:X86 Debug\BaseApplication.obj
+         Debug\BaseMesh.obj
+         Debug\BaseShader.obj
+         Debug\Camera.obj
+         Debug\ColourShader.obj
+         Debug\CubeMesh.obj
+         Debug\D3D.obj
+         Debug\DepthShader.obj
+         Debug\GeometryShader.obj
+         Debug\Input.obj
+         Debug\Lab1.obj
+         Debug\Light.obj
+         Debug\LightShader.obj
+         Debug\Main.obj
+         Debug\ManiShader.obj
+         Debug\ManiTessShader.obj
+         Debug\Model.obj
+         Debug\OrthoMesh.obj
+         Debug\PlaneMesh.obj
+         Debug\PointMesh.obj
+         Debug\QuadMesh.obj
+         Debug\RenderTexture.obj
+         Debug\ShadowShader.obj
+         Debug\SphereMesh.obj
+         Debug\System.obj
+         Debug\TessellationMesh.obj
+         Debug\Texture.obj
+         Debug\TextureShader.obj
+         Debug\Timer.obj
+         Debug\TokenStream.obj
+         Debug\TriangleMesh.obj
+         DX.vcxproj -> E:\1300869 Graphics\Source\Debug\DX.exe
+     1>Done Building Project "E:\1300869 Graphics\Source\DX\DX.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:33.63
